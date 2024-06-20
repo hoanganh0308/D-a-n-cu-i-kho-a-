@@ -1,26 +1,4 @@
-Quản lý thức ăn trong cửa hàng là một công việc quan trọng để đảm bảo sản phẩm luôn được quản lý và bán ra một cách an toàn và hiệu quả. Các nhiệm vụ cơ bản bao gồm:
-
-1. **Quản lý tồn kho:** Theo dõi số lượng thực phẩm và nguyên liệu để đảm bảo không bị thiếu hụt hoặc lãng phí.
-   
-2. **Bảo quản thực phẩm:** Đảm bảo các sản phẩm được bảo quản đúng cách để tránh thất thoát và bảo đảm an toàn thực phẩm.
-
-3. **Đặt hàng và cung ứng:** Xác định nhu cầu đặt hàng và tương tác với các nhà cung cấp để đảm bảo cửa hàng luôn có đủ nguyên liệu.
-
-4. **Tuân thủ quy định vệ sinh:** Đảm bảo tuân thủ các quy định vệ sinh thực phẩm để đảm bảo an toàn cho khách hàng và nhân viên.
-
-5. **Quản lý chất lượng:** Kiểm tra chất lượng thực phẩm đầu vào và đầu ra để đảm bảo sản phẩm đạt tiêu chuẩn.
-
-6. **Phân loại và trưng bày sản phẩm:** Sắp xếp sản phẩm một cách hợp lý để thu hút khách hàng và dễ dàng quản lý.
-
-7. **Giám sát hạn sử dụng:** Theo dõi và quản lý hạn sử dụng của các sản phẩm để tránh bán hàng hết hạn.
-
-Việc quản lý thức ăn hiệu quả không chỉ giúp cửa hàng hoạt động trơn tru mà còn đảm bảo an toàn thực phẩm và sự hài lòng của khách hàng.
-
-
-
-Việc áp dụng các phần mềm quản lý hiện đại sẽ giúp tối ưu hóa các quy trình trên, giảm thiểu sai sót và tiết kiệm thời gian.
-```python
-Đây là mã code Python để quản lý thức ăn trong cửa hàng. Mã này sẽ giúp bạn nhập thông tin về các mặt hàng thực phẩm và hiển thị danh sách các mặt hàng đó.
+Quản lý thức ăn trong cửa hàng là một công việc quan trọng để đảm bảo sản phẩm luôn được quản lý và bán ra một cách an toàn và hiệu quả. Các nhiệm vụ cơ bản bao gồ
 
 Mã code 
 --DROP table NguoiDung;
