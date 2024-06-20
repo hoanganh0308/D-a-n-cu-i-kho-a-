@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "Quản lý thức ăn trong cửa hàng là một công việc quan trọng để đảm bảo sản phẩm luôn được quản lý và bán ra một cách an toàn và hiệu quả. Các nhiệm vụ cơ bản bao gồm:\n\n1. **Quản lý tồn kho:** Theo dõi số lượng thực phẩm và nguyên liệu để đảm bảo không bị thiếu hụt hoặc lãng phí.\n   \n2. **Bảo quản thực phẩm:** Đảm bảo các sản phẩm được bảo quản đúng cách để tránh thất thoát và bảo đảm an toàn thực phẩm.\n\n3. **Đặt hàng và cung ứng:** Xác định nhu cầu đặt hàng và tương tác với các nhà cung cấp để đảm bảo cửa hàng luôn có đủ nguyên liệu.\n\n4. **Tuân thủ quy định vệ sinh:** Đảm bảo tuân thủ các quy định vệ sinh thực phẩm để đảm bảo an toàn cho khách hàng và nhân viên.\n\n5. **Quản lý chất lượng:** Kiểm tra chất lượng thực phẩm đầu vào và đầu ra để đảm bảo sản phẩm đạt tiêu chuẩn.\n\n6. **Phân loại và trưng bày sản phẩm:** Sắp xếp sản phẩm một cách hợp lý để thu hút khách hàng và dễ dàng quản lý.\n\n7. **Giám sát hạn sử dụng:** Theo dõi và quản lý hạn sử dụng của các sản phẩm để tránh bán hàng hết hạn.\n\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "cell_type": "code",
+      "source": "Đây là một ví dụ đơn giản về mã code Python để quản lý thức ăn trong cửa hàng. Mã này sẽ giúp bạn nhập thông tin về các mặt hàng thực phẩm và hiển thị danh sách các mặt hàng đó.\n\n```python\nclass FoodItem:\n    def __init__(self, name, price, quantity):\n        self.name = name\n        self.price = price\n        self.quantity = quantity\n    \n    def display(self):\n        print(f\"Name: {self.name}, Price: {self.price}, Quantity: {self.quantity}\")\n\nclass Store:\n    def __init__(self):\n        self.inventory = []\n    \n    def add_food_item(self, food_item):\n        self.inventory.append(food_item)\n    \n    def display_inventory(self):\n        print(\"Store Inventory:\")\n        for item in self.inventory:\n            item.display()\n    \n    def find_item(self, name):\n        for item in self.inventory:\n            if item.name.lower() == name.lower():\n                return item\n        return None\n\n# Sử dụng ví dụ\nif __name__ == \"__main__\":\n    store = Store()\n\n    # Thêm một số mặt hàng vào cửa hàng\n    store.add_food_item(FoodItem(\"Bánh mì\", 15000, 10))\n    store.add_food_item(FoodItem(\"Bánh bao\", 10000, 15))\n    store.add_food_item(FoodItem(\"Trà đá\", 5000, 20))\n\n    # Hiển thị danh sách các mặt hàng trong kho\n    store.display_inventory()\n\n    # Tìm kiếm một mặt hàng theo tên\n    item_name = \"Bánh bao\"\n    found_item = store.find_item(item_name)\n    if found_item:\n        print(f\"Found {item_name}:\")\n        found_item.display()\n    else:\n        print(f\"{item_name} not found in the inventory.\")\n```\n\nTrong ví dụ này:\n- `FoodItem` là lớp đại diện cho các mặt hàng thực phẩm với các thuộc tính như tên, giá và số lượng.\n- `Store` là lớp đại diện cho cửa hàng, có chức năng thêm mặt hàng vào kho, hiển thị danh sách kho hàng, và tìm kiếm mặt hàng theo tên.\n- Trong hàm `__main__`, một cửa hàng được tạo và một số mặt hàng được thêm vào. Sau đó, danh sách các mặt hàng trong kho được hiển thị và tìm kiếm một mặt hàng theo tên được thực hiện.\n\nBạn có thể mở rộng mã này bằng cách thêm các chức năng khác như xóa mặt hàng, cập nhật thông tin mặt hàng, tính tổng giá trị kho hàng, và các tính năng quản lý khác tùy thuộc vào yêu cầu cụ thể của bạn.",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
