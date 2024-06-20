@@ -16,8 +16,45 @@ Quản lý thức ăn trong cửa hàng là một công việc quan trọng đ�
 
 Việc quản lý thức ăn hiệu quả không chỉ giúp cửa hàng hoạt động trơn tru mà còn đảm bảo an toàn thực phẩm và sự hài lòng của khách hàng.
 Đây là một ví dụ đơn giản về mã code Python để quản lý thức ăn trong cửa hàng. Mã này sẽ giúp bạn nhập thông tin về các mặt hàng thực phẩm và hiển thị danh sách các mặt hàng đó.
+Chức Năng 
+Chức năng quản lý thức ăn trong cửa hàng thường bao gồm nhiều khía cạnh khác nhau nhằm đảm bảo việc cung cấp, lưu trữ, kiểm tra chất lượng và bán hàng được thực hiện một cách hiệu quả. Dưới đây là các chức năng chính:
+Chức Năng quản lý thức ăn trong nhà hàng 
+1. **Quản lý nhập hàng:**
+   - Ghi nhận và kiểm tra hàng hóa khi nhập vào kho.
+   - Cập nhật thông tin về số lượng, nguồn gốc, và ngày nhập hàng.
 
+2. **Kiểm soát tồn kho:**
+   - Theo dõi và cập nhật số lượng thức ăn còn lại trong kho.
+   - Sử dụng các phần mềm để cảnh báo khi số lượng thức ăn sắp hết hoặc quá nhiều.
+
+3. **Quản lý hạn sử dụng:**
+   - Kiểm tra và quản lý hạn sử dụng của các loại thức ăn để đảm bảo chất lượng.
+   - Thực hiện các biện pháp giảm giá hoặc tiêu thụ các sản phẩm gần hết hạn.
+
+4. **Bảo quản và lưu trữ:**
+   - Đảm bảo các điều kiện lưu trữ phù hợp (nhiệt độ, độ ẩm) cho từng loại thức ăn.
+   - Sắp xếp kho bãi một cách khoa học để dễ dàng tìm kiếm và kiểm tra.
+
+5. **Quản lý chất lượng:**
+   - Thường xuyên kiểm tra chất lượng thực phẩm để đảm bảo an toàn vệ sinh thực phẩm.
+   - Xử lý các sản phẩm bị hỏng hoặc không đạt chất lượng.
+
+6. **Quản lý bán hàng:**
+   - Ghi nhận và theo dõi các giao dịch bán hàng.
+   - Phân tích doanh số bán hàng để đưa ra các chiến lược kinh doanh phù hợp.
+
+7. **Quản lý giá cả:**
+   - Cập nhật và điều chỉnh giá bán thức ăn dựa trên chi phí nhập hàng, thị trường và các chiến dịch khuyến mãi.
+  
+8. **Báo cáo và phân tích:**
+   - Lập báo cáo về tình hình nhập xuất tồn kho, doanh số bán hàng và chất lượng sản phẩm.
+   - Phân tích dữ liệu để đưa ra các quyết định kinh doanh hiệu quả hơn.
+
+Việc áp dụng các phần mềm quản lý hiện đại sẽ giúp tối ưu hóa các quy trình trên, giảm thiểu sai sót và tiết kiệm thời gian.
 ```python
+Đây là mã code Python để quản lý thức ăn trong cửa hàng. Mã này sẽ giúp bạn nhập thông tin về các mặt hàng thực phẩm và hiển thị danh sách các mặt hàng đó.
+
+Mã code 
 class FoodItem:
     def __init__(self, name, price, quantity):
         self.name = name
@@ -66,9 +103,10 @@ if __name__ == "__main__":
     else:
         print(f"{item_name} not found in the inventory.")
 ```
+Bnous Quản lý thức ăn trog nhà hàng 
 
-Trong ví dụ này:
 - `FoodItem` là lớp đại diện cho các mặt hàng thực phẩm với các thuộc tính như tên, giá và số lượng.
 - `Store` là lớp đại diện cho cửa hàng, có chức năng thêm mặt hàng vào kho, hiển thị danh sách kho hàng, và tìm kiếm mặt hàng theo tên.
-- Trong hàm `__main__`, một cửa hàng được tạo và một số mặt hàng được thêm vào. Sau đó, danh sách các mặt hàng trong kho được hiển thị và tìm kiếm một mặt hàng theo tên được thực hiện.
+- Trong hàm `__main__`, một cửa hàng được tạo và một số mặt hàng được thêm vào. Sau đó, danh sách các mặt hàng trong kho được hiển thị và tìm kiếm một mặt hàng theo tên được thực hiên 
+
 
