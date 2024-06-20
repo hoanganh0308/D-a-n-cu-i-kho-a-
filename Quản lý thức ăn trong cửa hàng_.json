@@ -15,8 +15,7 @@ Quản lý thức ăn trong cửa hàng là một công việc quan trọng đ�
 7. **Giám sát hạn sử dụng:** Theo dõi và quản lý hạn sử dụng của các sản phẩm để tránh bán hàng hết hạn.
 
 Việc quản lý thức ăn hiệu quả không chỉ giúp cửa hàng hoạt động trơn tru mà còn đảm bảo an toàn thực phẩm và sự hài lòng của khách hàng.
-Đây là một ví dụ đơn giản về mã code Python để quản lý thức ăn trong cửa hàng. Mã này sẽ giúp bạn nhập thông tin về các mặt hàng thực phẩm và hiển thị danh sách các mặt hàng đó.
-Chức Năng 
+
 Chức năng quản lý thức ăn trong cửa hàng thường bao gồm nhiều khía cạnh khác nhau nhằm đảm bảo việc cung cấp, lưu trữ, kiểm tra chất lượng và bán hàng được thực hiện một cách hiệu quả. Dưới đây là các chức năng chính:
 Chức Năng quản lý thức ăn trong nhà hàng 
 1. **Quản lý nhập hàng:**
@@ -82,7 +81,7 @@ class Store:
                 return item
         return None
 
-# Sử dụng ví dụ
+# Sử dụng tên 
 if __name__ == "__main__":
     store = Store()
 
